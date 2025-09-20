@@ -1,13 +1,13 @@
 Section,Title,Videos,Link
-Data Engineering,Apache Airflow,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWEJXm2Dk8bNISLbQIPEB4-f
-Data Engineering,Spark and Pyspark,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWFH8F4meBFh8I3J0aDeSqBW
-Data Engineering,Data engineering - ITA - Corso,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWHKdoAe3oN5_cz5X9vNPbzW
+Data Engineering,Apache Airflow,1,https://www.youtube.com/playlist?list=PLs-OIYdjIeWEJXm2Dk8bNISLbQIPEB4-f
+Data Engineering,Spark and Pyspark,1,https://www.youtube.com/playlist?list=PLs-OIYdjIeWFH8F4meBFh8I3J0aDeSqBW
+Data Engineering,Data engineering - ITA - Corso,3,https://www.youtube.com/playlist?list=PLs-OIYdjIeWHKdoAe3oN5_cz5X9vNPbzW
 Data Engineering,RDBMS - ITA - Corso,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWHZrMwve5PPNRjzwdOnKKzu
-Python / Testing,Testing in Python,3,https://www.youtube.com/playlist?list=PLs-OIYdjIeWH6xQV3cZXJhNjuthnqUHYE
+Python / Testing,Testing in Python,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWH6xQV3cZXJhNjuthnqUHYE
 Python / Testing,Parallelism in Python,1,https://www.youtube.com/playlist?list=PLs-OIYdjIeWFlVNES6MJNixq-9vpYWfGM
 Python / Testing,Gestire Pacchetti Python con UV – ITA - Corso,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWH2TWMKUJhmJxHb4YPpcj0r
 LeetCode,LeetCode - SQL,4,https://www.youtube.com/playlist?list=PLs-OIYdjIeWFRipG9A8_7-qCnI1ify8VV
 LeetCode,LeetCode - Array: Number Theory,1,https://www.youtube.com/playlist?list=PLs-OIYdjIeWFR8oTb1w_E5LJEkXvylMKY
+LeetCode,LeetCode - Array,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWEKeYdrdlJINu-mBEHcfKdV
 LeetCode,LeetCode - String Binary,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWHM1O3_Y8wrczCS7JviVVRs
 LeetCode,LeetCode - String,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWEKEQuJh5HvXD3dz1nm5z82
-LeetCode,LeetCode - Array,2,https://www.youtube.com/playlist?list=PLs-OIYdjIeWEKeYdrdlJINu-mBEHcfKdV
