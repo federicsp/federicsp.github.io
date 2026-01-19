@@ -5,3 +5,14 @@ th, td { padding: 10px; text-align: left; }
 th { color: #fff; }
 a { color: #00bfff; text-decoration: none; }
 tr:nth-child(even) { opacity: 0.85; }
+button {
+  background-color: #1da1f2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0d8ddb;
+}
