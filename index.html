@@ -1,27 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Federico - Personal website and YouTube playlists">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title>Federico - YouTube Playlists</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Federico Spatola — Python developer and data engineer.">
+  <meta name="color-scheme" content="light dark">
+  <title>Federico Spatola</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p>Hello! I'm Federico, a Python developer passionate about data, data engineering, statistics, and mathematics. Here you can find my YouTube playlists organized by topic.</p>
+  <header>
+    <img class="profile-photo" src="assets/images/picture.jpg" alt="Portrait of Federico Spatola" width="144" height="144">
+    <h1>federicsp.github.io</h1>
+    <p class="subtitle">
+      Hi there 👋 I'm Federico Spatola
+      <br><br>
+      - 🔧 I am a Python developer and data engineer<br>
+      - 🚀 My focus is on Python, distributed data processing, databases, containers, and cloud infrastructure<br>
+      - 🔭 I am currently working at Immobiliare.it<br>
+      - 🌱 I have a background in mathematics, statistics, and actuarial science<br>
+      - 💬 I am always happy to discuss Python, data systems, engineering practices, and the ideas behind them
+    </p>
+  </header>
 
-<h2>My YouTube Playlists</h2>
-<p>I occasionally publish content about Python, data engineering, and related topics.</p>
+  <main class="content">
+    <section aria-labelledby="contacts">
+      <h2 id="contacts">Contacts</h2>
+      <p>GitHub: <a href="https://github.com/federicsp">federicsp</a></p>
+      <p>LinkedIn: <a href="https://it.linkedin.com/in/federico-spatola">Federico Spatola</a></p>
+    </section>
 
-<!-- Bottone per aprire il CV -->
-<p>
-  <a href="cv.html" target="_blank">
-    <button>Open My CV</button> <!-- apre cv.html in una nuova scheda -->
-  </a>
-</p>
+    <hr>
 
-<div id="tables"></div>
+    <section aria-labelledby="life">
+      <h2 id="life">Story</h2>
+      <div class="story-list">
+        <details data-year="2026"><summary><span class="story-time">2026</span><span class="story-title">Coderful</span></summary><p>I attended to Coderful Conference.</p></details>
+        <details open data-year="2026"><summary><span class="story-time">2026</span><span class="story-title">Immobiliare.it</span></summary><p>I work across the full data engineering lifecycle, from ingestion to serving in production. I maintain and extend pipelines, develop backend components and internal APIs, and contribute to research and development.</p></details>
+        <details data-year="2026"><summary><span class="story-time">2026</span><span class="story-title">PyCon Italia</span></summary><p>I participated in PyCon Italia, exchanging practical experience and new ideas with developers from the Italian Python community.</p></details>
+        <details data-year="2025"><summary><span class="story-time">2025</span><span class="story-title">Immobiliare.it</span></summary><p>I worked on production data flows, Python services, internal APIs, SQL and NoSQL systems, with reliability and maintainability as recurring concerns.</p></details>
+        <details data-year="2024"><summary><span class="story-time">2024</span><span class="story-title">Immobiliare.it</span></summary><p>I maintained and extended data pipelines while developing backend components and APIs used in a production environment.</p></details>
+        <details data-year="2024"><summary><span class="story-time">2024</span><span class="story-title">PyCon Italia</span></summary><p>I joined PyCon Italia for talks and discussions that connected Python development with testing, architecture, data, and real production systems.</p></details>
+        <details data-year="2023"><summary><span class="story-time">2023</span><span class="story-title">Immobiliare.it</span></summary><p>I developed Python applications and data workflows, working with databases, containers, and deployment processes for production services.</p></details>
+        <details data-year="2022"><summary><span class="story-time">2022</span><span class="story-title">EuroPython</span></summary><p>I attended remotely to EuroPython Conference.</p></details>
+        <details data-year="2022"><summary><span class="story-time">2022</span><span class="story-title">Immobiliare.it</span></summary><p>I worked with Python, ETL services, REST APIs, SQL and NoSQL databases, and containerized applications across the data lifecycle.</p></details>
+        <details data-year="2022"><summary><span class="story-time">2022</span><span class="story-title">PyCon Italia</span></summary><p>I attended to PyCon Italia Conference.</p></details>
+        <details data-year="2021"><summary><span class="story-time">2021</span><span class="story-title">Immobiliare.it</span></summary><p>I joined Immobiliare.it in April as a Python developer.</p></details>
+        <details data-year="2021"><summary><span class="story-time">2021</span><span class="story-title">Statistics and actuarial science</span></summary><p>I completed my master's degree at the University of Trieste, in March.</p></details>
+        <details data-year="2021"><summary><span class="story-time">2021</span><span class="story-title">Xpand Group</span></summary><p>I completed my experience with Xpand Group in February after building Python web-scraping scripts that extracted data from multiple sources for a Belfast-based team.</p></details>
+        <details data-year="2020"><summary><span class="story-time">2020</span><span class="story-title">Erasmus in Ljubljana</span></summary><p>From February to July I studied at the University of Ljubljana through Erasmus+.</p></details>
+        <details data-year="2020"><summary><span class="story-time">2020</span><span class="story-title">Starting with Git</span></summary><p>I encountered Git in a university lesson.</p></details>
+        <details data-year="2020"><summary><span class="story-time">2020</span><span class="story-title">Statistics and actuarial science</span></summary><p>I continued the master's programme through advanced probability, advanced statistical inference.</p></details>
+        <details data-year="2020"><summary><span class="story-time">2020</span><span class="story-title">Xpand Group</span></summary><p>I began working remotely as a full stack developer for Xpand Group, with primary responsibility for Python web scraping across several data sources.</p></details>
+        <details data-year="2019"><summary><span class="story-time">2019</span><span class="story-title">Statistics and actuarial science</span></summary><p>I developed basics in econometric models, business intelligence, insurance mathematics, and data-driven decision making.</p></details>
+        <details data-year="2018"><summary><span class="story-time">2018</span><span class="story-title">Mathematics in Trieste</span></summary><p>In July I completed my bachelor's degree in mathematics.</p></details>
+        <details data-year="2018"><summary><span class="story-time">2018</span><span class="story-title">Statistics and actuarial science</span></summary><p>In September I began the master's programme in Statistical and Actuarial Sciences at the University of Trieste, shifting toward applied probability, statistics, and analytics.</p></details>
+        <details data-year="2017"><summary><span class="story-time">2017</span><span class="story-title">Mathematics in Trieste</span></summary><p>I recovered my academic momentum and progressed through other courses.</p></details>
+        <details data-year="2017"><summary><span class="story-time">2017</span><span class="story-title">Starting with MATLAB</span></summary><p>I began using MATLAB in a mathematical modeling course.</p></details>
+        <details data-year="2017"><summary><span class="story-time">2017</span><span class="story-title">Starting with Python</span></summary><p>I encountered Python by chance in a three-credit university course.</p></details>
+        <details data-year="2016"><summary><span class="story-time">2016</span><span class="story-title">Mathematics in Trieste</span></summary><p>This was a difficult year, during which I considered leaving university. However, I decided to stay, although I completed only three exams throughout the entire year.</p></details>
+        <details data-year="2015"><summary><span class="story-time">2015</span><span class="story-title">Mathematics in Trieste</span></summary><p>I worked through foundational courses including Analysis, Geometry, Algebra, Newtonian Physics, Algorithms, and Data Structures.</p></details>
+        <details data-year="2014"><summary><span class="story-time">2014</span><span class="story-title">Mathematics in Trieste</span></summary><p>I moved from Palermo to Trieste and began the bachelor's degree in Mathematics, adapting to a new city and a more rigorous way of studying.</p></details>
 
-<script src="js/script.js"></script>
+        <details data-year="2009—2014">
+          <summary><span class="story-time">2009—2014</span><span class="story-title">Scientific high school in Palermo</span></summary>
+          <p>I graduated from Liceo Scientifico Galileo Galilei in Palermo, building the quantitative foundations that later pushed me toward mathematics and technical problem solving.</p>
+        </details>
+
+        <details data-year="1995">
+          <summary><span class="story-time">1995</span><span class="story-title">Born in Palermo</span></summary>
+          <p>I was born in Palermo, Sicily.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
