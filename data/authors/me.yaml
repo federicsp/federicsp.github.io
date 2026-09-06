@@ -1,0 +1,54 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Federico Spatola
+  given: Federico
+  family: Spatola
+  pronouns: he/him
+status:
+  icon: "👋"
+role: Python Developer & Data Engineer
+bio: >
+  I am a Python developer and data engineer at Immobiliare.it. I work across
+  the data engineering lifecycle, from ingestion to serving in production,
+  building reliable pipelines, backend components, and internal APIs. My
+  interests include distributed data processing, databases, containers, cloud
+  infrastructure, and the engineering practices behind maintainable systems.
+affiliations:
+  - name: Immobiliare.it
+    url: https://www.immobiliare.it/
+links:
+  - icon: brands/github
+    url: https://github.com/federicsp
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://it.linkedin.com/in/federico-spatola
+    label: LinkedIn
+interests:
+  - Python
+  - Distributed data processing
+  - Databases
+  - Containers and cloud infrastructure
+education:
+  - degree: MSc Statistics and Actuarial Science
+    institution: University of Trieste
+    end: 2021-03-01
+  - degree: BSc Mathematics
+    institution: University of Trieste
+    end: 2018-07-01
+experience:
+  - role: Python Developer & Data Engineer
+    org: Immobiliare.it
+    start: 2021-04-01
+    summary: |
+      Working across the full data engineering lifecycle, from ingestion to
+      production serving, with Python services, data pipelines, APIs, SQL and
+      NoSQL systems, containers, and cloud infrastructure.
+  - role: Full Stack Developer
+    org: Xpand Group
+    start: 2020-01-01
+    end: 2021-02-28
+    summary: |
+      Built Python web-scraping applications that extracted data from multiple
+      sources for a Belfast-based team.
